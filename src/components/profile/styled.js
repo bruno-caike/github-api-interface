@@ -16,6 +16,7 @@ export const WrapperInfoUser = styled.div`
   h1 {
     font-size: 32px;
     font-weight: bold;
+    color: #252525;
   }
 
   h3 {
@@ -32,6 +33,7 @@ export const WrapperInfoUser = styled.div`
 export const WrapperStatusCount = styled.div`
   display: flex;
   align-items: center;
+  color: #252525;
   div {
     margin: 8px;
     text-align: center;
@@ -45,6 +47,7 @@ export const WrapperUserGeneric = styled.div`
 
   h3 {
     margin-right: 8px;
+    color: #252525;
   }
 
   a {

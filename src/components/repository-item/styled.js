@@ -14,6 +14,7 @@ export const WrapperTitle = styled.h2`
   font-size: 18px;
   font-weight: bold;
   margin: 8px 0;
+  color: #252525;
 `;
 
 export const WrapperFullName = styled.h2`
