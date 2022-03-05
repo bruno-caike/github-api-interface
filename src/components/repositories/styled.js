@@ -22,9 +22,20 @@ export const WrapperTab = styled(Tab)`
   user-select: none;
   cursor: pointer;
   z-index: 99999;
-  background-color: "#fff";
+  color: #FFFFFF;
   margin: 8px;
-
+  &:not(:last-child) {
+    background-color: #343a40;
+    &:hover {
+      background-color: #23272b;
+    }
+  }
+  &:last-child {
+    background-color: #dc3545;
+    &:hover {
+      background-color: #c82333;
+    }
+  }
   &:focus {
     outline: none;
   }
